@@ -1,4 +1,4 @@
-var moveCount = 0;
+var moveCount = 0; //comment show?
 
 var WHITE = 0x0;
 var BLACK = 0x8;
