@@ -1,0 +1,124 @@
+*{
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+#board {
+    height: 400px;
+    width: 400px;
+    float: left;
+}
+
+#board .row {
+    float: left;
+    clear: both;
+}
+
+#board .column {
+    height: 50px;
+    width: 50px;
+    background: #F8ECC9;
+    float: left;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+#board .column.dark {
+    background: #99B2B7;
+}
+
+#board .column.off {
+    background: #fefcf6;
+}
+
+#board .column.off.dark {
+    background: #b7c9cc;
+}
+
+#board .column div {
+    height: 50px;
+    width: 50px;
+}
+
+#board .column .WHITE_KING {
+    background: url('../images/wKing.png');
+}
+
+#board .column .WHITE_QUEEN {
+    background: url('../images/wQueen.png');
+}
+
+#board .column .WHITE_ROOK {
+    background: url('../images/wRook.png');
+}
+
+#board .column .WHITE_BISHOP {
+    background: url('../images/wBishop.png');
+}
+
+#board .column .WHITE_KNIGHT {
+    background: url('../images/wKnight.png');
+}
+
+#board .column .WHITE_PAWN {
+    background: url('../images/wPawn.png');
+}
+
+
+#board .column .BLACK_KING {
+    background: url('../images/bKing.png');
+}
+
+#board .column .BLACK_QUEEN {
+    background: url('../images/bQueen.png');
+}
+
+#board .column .BLACK_ROOK {
+    background: url('../images/bRook.png');
+}
+
+#board .column .BLACK_BISHOP {
+    background: url('../images/bBishop.png');
+}
+
+#board .column .BLACK_KNIGHT {
+    background: url('../images/bKnight.png');
+}
+
+#board .column .BLACK_PAWN {
+    background: url('../images/bPawn.png');
+}
+
+#board .column .EMPTY {
+    background: none;
+}
+
+/*
+#board .column.red-border{
+border: 2px solid #C02942;
+height: 46px;
+width: 46px;
+}
+
+#board .column.red-border div{
+background-position: -2px -2px;
+}
+*/
+#board .column.light.red-border{
+    background-color: #A8DBA8;
+}
+
+#board .column.dark.red-border{
+    background-color: #4ba9a9;
+}
+
+
+
+#info {
+    float: left;
+    background: #eee;
+    height: 360px;
+    width: 260px;
+    margin-left: 100px;
+    padding: 20px;
+}
